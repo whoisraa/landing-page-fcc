@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Product Landing Page - FCC</title>
+</head>
+
+<body>
+  <header id="header">
+    <nav class="nav" id="nav-bar">
+      <a class="nav-link active" href="#header"><img src="shiterufood-logo.png" alt="" id="header-img" width="150px"
+          height="45px"></a>
+      <a class="nav-link nav-menu" href="#menu-section">Menu</a>
+      <a class="nav-link nav-menu" href="#video-section">Video</a>
+      <a class="nav-link nav-menu" href="#subscribe-section">Subscribe</a>
+    </nav>
+  </header>
+  <section id="menu-section">
+    <ul>
+      <li class="menu menu-1">
+        <div class="menu-price">5K</div>
+        <div class="menu-item">Leker</div>
+      </li>
+      <li class="menu menu-2">
+        <div class="menu-price">5K</div>
+        <div class="menu-item">Cilor</div>
+      </li>
+      <li class="menu menu-3">
+        <div class="menu-price">2K</div>
+        <div class="menu-item">Mie Lidi</div>
+      </li>
+      <li class="menu menu-4">
+        <div class="menu-price">5K</div>
+        <div class="menu-item">Martabak Telor Mini</div>
+      </li>
+      <li class="menu menu-5">
+        <!-- <img src="https://fibercreme.com/wp-content/uploads/2021/03/Telur-gulung-moza.jpg" alt="" class="menu-img"> -->
+        <div class="menu-price">1K</div>
+        <div class="menu-item">Telor Gulung</div>
+      </li>
+    </ul>
+  </section>
+  <section id="video-section">
+    <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/tRW0vJH3wrU"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </section>
+  <section id="subscribe-section">
+    <h3 id="subscribe">Please fill out this form to subscribe</h3>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <label id="email-label" for"email">Email : </label>
+      <input id="email" type="email" name="email" placeholder="enter email" required>
+      <input id="submit" type="submit" value="ok">
+    </form>
+  </section>
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
