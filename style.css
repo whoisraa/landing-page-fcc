@@ -79,10 +79,25 @@ body {
     color: yellow;
 }
 
-#menu-section ul {
+#menu-section {
+    background-color: rgb(240, 192, 203);
+    padding: 10px 0px 10px 0px;
+}
+
+#menu-section h1 {
+    width: 500px;
+    height: auto;
     background-color: #000;
+    border-radius: 15px;
+    color: white;
+    margin: auto;
+    padding: 11.5px 0px 11.5px 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+#menu-section ul {
     list-style-type: none;
-    padding: 20px 20px;
     display: flex;
     justify-content: center;
 }
@@ -99,6 +114,8 @@ body {
     height: 200px;
     margin: 5px;
     cursor: pointer;
+    margin-right: 15px;
+    margin-left: 15px;
 }
 
 .menu {
@@ -138,8 +155,7 @@ body {
 }
 
 #video-section {
-    background-color: #000;
-    margin: 0px 0px 18px 0px;
+    background-color: rgb(240, 192, 203);
     display: flex;
     justify-content: center;
 }
@@ -147,7 +163,7 @@ body {
 #subscribe-section {
     background-color: #000;
     color: white;
-    padding: 20px 20px;
+    padding: 20px 20px 45px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
